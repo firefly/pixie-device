@@ -1,0 +1,17 @@
+**/.DS_Store
+
+obsolete/**
+
+# Backups
+*-bak
+*-backups
+*-bak*
+*-cache*
+_autosave*
+\#auto_saved_files\#
+
+# User config
+*.kicad_prl
+
+# Lock files
+*.lck
