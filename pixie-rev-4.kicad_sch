@@ -2917,7 +2917,7 @@
     (property "Value" "ESP32_C3" (at 168.5641 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DFN_QFN:HVQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" (at 166.37 82.55 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm" (at 166.37 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 166.37 82.55 0)
