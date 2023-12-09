@@ -1,6 +1,64 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "BackTilt",
+        "ww": 1.0,
+        "wx": 32.60349655151367,
+        "wy": 9.527426719665527,
+        "wz": -23.086612701416016,
+        "xw": 0.0,
+        "xx": -0.9605313539505005,
+        "xy": 0.031727347522974014,
+        "xz": 0.27635645866394043,
+        "yw": 0.0,
+        "yx": -0.04112416133284569,
+        "yy": 0.9663613438606262,
+        "yz": -0.2538790702819824,
+        "zw": 0.0,
+        "zx": -0.27511510252952576,
+        "zy": -0.25522375106811523,
+        "zz": -0.9269155859947205
+      },
+      {
+        "name": "Front",
+        "ww": 1.0,
+        "wx": -32.34441375732422,
+        "wy": 10.047601699829102,
+        "wz": 0.9623432159423828,
+        "xw": 0.0,
+        "xx": 0.9339421987533569,
+        "xy": 0.03048432432115078,
+        "xz": -0.356121689081192,
+        "yw": 0.0,
+        "yx": -0.09162448346614838,
+        "yy": 0.9834821820259094,
+        "yz": -0.15610165894031525,
+        "zw": 0.0,
+        "zx": 0.34548068046569824,
+        "zy": 0.17841939628124237,
+        "zz": 0.9213086366653442
+      },
+      {
+        "name": "FrontTilt",
+        "ww": 1.0,
+        "wx": -32.54958724975586,
+        "wy": 11.679656028747559,
+        "wz": -4.340690612792969,
+        "xw": 0.0,
+        "xx": 0.9605265855789185,
+        "xy": -0.03173177316784859,
+        "xz": -0.2763725519180298,
+        "yw": 0.0,
+        "yx": -0.041124165058135986,
+        "yy": 0.9663613438606262,
+        "yz": -0.2538790702819824,
+        "zw": 0.0,
+        "zx": 0.2751317620277405,
+        "zy": 0.25522318482398987,
+        "zz": 0.9269108176231384
+      }
+    ],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
@@ -35,8 +93,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.36,
-          "width": 0.318
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -46,7 +104,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -114,11 +172,11 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.09999999999999999,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.3,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_resolved_spokes": 2,
@@ -126,8 +184,8 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_track_width": 0.09999999999999999,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.3,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -176,6 +234,7 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
         0.254,
         0.381,
@@ -187,15 +246,15 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.6,
           "drill": 0.3
         },
         {
-          "diameter": 0.581,
+          "diameter": 0.681,
           "drill": 0.381
         },
         {
-          "diameter": 0.708,
+          "diameter": 0.808,
           "drill": 0.508
         }
       ],
@@ -410,7 +469,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -519,6 +578,18 @@
     [
       "0ccedecd-4aba-4418-a5c8-d9b621b73454",
       ""
+    ],
+    [
+      "f49ed37f-ad6c-47bb-8256-8f7879fd9312",
+      "Power"
+    ],
+    [
+      "3ca0d2be-52dc-4223-9383-93ccbf57f2c6",
+      "MCU"
+    ],
+    [
+      "64f4ecdb-74e8-4950-9f34-8a2232fc8e83",
+      "Output"
     ]
   ],
   "text_variables": {}
