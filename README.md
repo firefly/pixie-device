@@ -1,4 +1,4 @@
-Firefly Pixie (Rev.4)
+Firefly Pixie (Rev.5)
 =====================
 
 The Rev.4 of the compact Firefly Hardware Wallet.
@@ -12,7 +12,7 @@ Firefly Pixie Specifications
 - **Inputs:** 4x tactile buttons
 - **Outputs:**
   - 240x240px IPS 1.3" display (16-bit color)
-  - RGB LED (WS2812B)
+  - 4x RGB LED (WS2812B)
 - **Conectivity:**
   - USB-C
   - BLE
