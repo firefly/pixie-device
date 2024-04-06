@@ -708,8 +708,6 @@
   )
 
   (no_connect (at 121.92 66.04) (uuid 0ed62dbb-e729-44f0-97af-b19b73c1c1d2))
-  (no_connect (at 177.8 55.88) (uuid a1b4d612-b8c0-4f3e-947a-7e63f31d0014))
-  (no_connect (at 177.8 58.42) (uuid b325b590-ce3d-468e-ade2-cb34462d8e3f))
   (no_connect (at 121.92 68.58) (uuid f9a828ef-39e8-4065-8c0a-7b335ec6710a))
 
   (wire (pts (xy 256.54 148.59) (xy 256.54 151.13))
@@ -852,6 +850,10 @@
     (stroke (width 0) (type default))
     (uuid 3b3c09bc-f5bb-438c-887b-4f85e13ebc9f)
   )
+  (wire (pts (xy 187.96 55.88) (xy 190.5 55.88))
+    (stroke (width 0) (type default))
+    (uuid 3c804a85-bcd4-445b-845b-b3f2503e9d3f)
+  )
   (wire (pts (xy 36.83 166.37) (xy 44.45 166.37))
     (stroke (width 0) (type default))
     (uuid 3cebe8fd-7093-4c30-815b-df2432101d3b)
@@ -975,6 +977,10 @@
   (wire (pts (xy 135.89 166.37) (xy 135.89 162.56))
     (stroke (width 0) (type default))
     (uuid 781acc4d-6231-4527-8017-c7af3f19aecc)
+  )
+  (wire (pts (xy 177.8 55.88) (xy 180.34 55.88))
+    (stroke (width 0) (type default))
+    (uuid 793757f3-27a9-4825-a05c-3b7c56f21632)
   )
   (wire (pts (xy 44.45 39.37) (xy 48.26 39.37))
     (stroke (width 0) (type default))
@@ -1191,6 +1197,10 @@
   (wire (pts (xy 41.91 160.02) (xy 41.91 173.99))
     (stroke (width 0) (type default))
     (uuid defd93da-e789-484f-a639-3055bf7c85b3)
+  )
+  (wire (pts (xy 177.8 58.42) (xy 190.5 58.42))
+    (stroke (width 0) (type default))
+    (uuid e299694f-308f-4cee-95d0-91e87d4efda0)
   )
   (wire (pts (xy 236.22 39.37) (xy 240.03 39.37))
     (stroke (width 0) (type default))
@@ -1543,6 +1553,10 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 562bddf3-7d6e-49df-aefb-7534f58294a9)
   )
+  (hierarchical_label "IO21" (shape bidirectional) (at 190.5 55.88 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6df9a4bf-54b2-42bf-9e36-389af935ed97)
+  )
   (hierarchical_label "DISP_SCL" (shape output) (at 109.22 86.36 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7b350121-03d3-4b9d-b7fc-adb0da064396)
@@ -1559,6 +1573,10 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a817bf7e-15bc-4c6a-88e4-9125baae43a7)
   )
+  (hierarchical_label "IO20" (shape bidirectional) (at 190.5 58.42 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid bcf6ccda-3b43-40f3-ac91-8c4d1dc599d3)
+  )
   (hierarchical_label "DISP_RST" (shape output) (at 109.22 83.82 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c890e224-27ef-4240-9677-48697bc31de6)
@@ -1571,7 +1589,7 @@
   (symbol (lib_id "power:GND") (at 36.83 181.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 049de012-dc6c-422e-a6ff-8435e2417d5b)
-    (property "Reference" "#PWR011" (at 36.83 187.96 0)
+    (property "Reference" "#PWR08" (at 36.83 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 36.83 186.69 0)
@@ -1586,11 +1604,8 @@
     (pin "1" (uuid 31ac5267-a86b-4ea1-8457-f4a313a7721b))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "#PWR011") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "#PWR0301") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1599,7 +1614,7 @@
   (symbol (lib_id "power:GND") (at 149.86 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 125d6bc6-a4ac-440e-a363-37d0b0ff5f79)
-    (property "Reference" "#PWR09" (at 149.86 123.19 0)
+    (property "Reference" "#PWR013" (at 149.86 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 123.19 0)
@@ -1614,11 +1629,8 @@
     (pin "1" (uuid cada422d-4ea3-4b70-85bd-b5f750dc84b1))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "#PWR0306") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1627,7 +1639,7 @@
   (symbol (lib_id "Device:R") (at 140.97 172.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17b49015-9e19-44b3-9c77-1e269ab4c5f9)
-    (property "Reference" "R305" (at 140.97 170.18 90)
+    (property "Reference" "R7" (at 140.97 170.18 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 140.97 175.26 90)
@@ -1647,7 +1659,7 @@
     (instances
       (project "pixie-rev-4"
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "R305") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1672,11 +1684,8 @@
     (pin "2" (uuid 72bffaba-79f8-49e0-9ad1-ad3be7a14c17))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "AE1") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "AE301") (unit 1)
+          (reference "AE1") (unit 1)
         )
       )
     )
@@ -1685,7 +1694,7 @@
   (symbol (lib_id "Device:R") (at 59.69 160.02 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 245642b9-a3f8-4ff9-b2d3-2b5adae2216d)
-    (property "Reference" "R5" (at 62.23 158.75 0)
+    (property "Reference" "R4" (at 62.23 158.75 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22R" (at 62.23 161.29 0)
@@ -1704,11 +1713,8 @@
     (pin "2" (uuid 76861f75-7c25-4400-b258-bac284b9ff9b))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "R5") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "R302") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1717,7 +1723,7 @@
   (symbol (lib_id "Device:C") (at 48.26 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25c80589-f7be-4c01-908d-d3d65834f150)
-    (property "Reference" "C12" (at 52.07 44.4499 0)
+    (property "Reference" "C8" (at 52.07 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3p3" (at 52.07 46.9899 0)
@@ -1736,18 +1742,15 @@
     (pin "2" (uuid 3d85573e-d57c-411e-b7c6-580a8b9999fa))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C12") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C304") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 182.88 101.6 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 2ea104f4-88ad-43e2-9f6d-cc888093d0b1)
     (property "Reference" "BOOT1" (at 182.88 107.95 0)
       (effects (font (size 1.27 1.27)))
@@ -1755,7 +1758,7 @@
     (property "Value" "TestPoint" (at 180.34 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 187.96 101.6 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 187.96 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 187.96 101.6 0)
@@ -1764,11 +1767,8 @@
     (pin "1" (uuid 0bc92c90-22a0-4598-a659-201d94f75d2a))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "BOOT1") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "BOOT301") (unit 1)
+          (reference "BOOT1") (unit 1)
         )
       )
     )
@@ -1777,7 +1777,7 @@
   (symbol (lib_id "power:GND") (at 256.54 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3931ad85-540c-498a-bad6-5aaec08605df)
-    (property "Reference" "#PWR01" (at 256.54 157.48 0)
+    (property "Reference" "#PWR016" (at 256.54 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 156.21 0)
@@ -1792,11 +1792,8 @@
     (pin "1" (uuid 1e0aa23c-2eaa-4b2f-b208-d40392b80914))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "#PWR0309") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1805,7 +1802,7 @@
   (symbol (lib_id "Device:R") (at 149.86 166.37 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3aa44740-ca71-4441-889a-a4465922641b)
-    (property "Reference" "R307" (at 149.86 163.83 90)
+    (property "Reference" "R9" (at 149.86 163.83 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 149.86 168.91 90)
@@ -1825,7 +1822,7 @@
     (instances
       (project "pixie-rev-4"
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "R307") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1834,7 +1831,7 @@
   (symbol (lib_id "power:GND") (at 45.72 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43a8ab47-402d-47d5-a7ea-ecb083cc5eff)
-    (property "Reference" "#PWR04" (at 45.72 120.65 0)
+    (property "Reference" "#PWR09" (at 45.72 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 45.72 119.38 0)
@@ -1849,11 +1846,8 @@
     (pin "1" (uuid 62541c80-ba39-42e1-ad8f-88453ea41980))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "#PWR04") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "#PWR0302") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1881,11 +1875,8 @@
     (pin "2" (uuid eceb2f60-fcba-4f3d-8a65-43936c345176))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "L2") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "L302") (unit 1)
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -1894,7 +1885,7 @@
   (symbol (lib_id "Device:C") (at 59.69 172.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54939bbe-86c5-499d-a713-c23376bed002)
-    (property "Reference" "C14" (at 63.5 171.45 0)
+    (property "Reference" "C9" (at 63.5 171.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10p" (at 63.5 173.99 0)
@@ -1913,11 +1904,8 @@
     (pin "2" (uuid 71df088b-67d1-463f-8d84-01c3292d609f))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C14") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C305") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1926,7 +1914,7 @@
   (symbol (lib_id "Device:C") (at 95.25 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f1da53c-15c0-46c3-bcef-afae5706afc3)
-    (property "Reference" "C16" (at 91.44 162.56 0)
+    (property "Reference" "C10" (at 91.44 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 91.44 165.1 0)
@@ -1945,11 +1933,8 @@
     (pin "2" (uuid 1890b243-27a9-47bb-9711-086a9ae221d0))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C16") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C306") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -1977,11 +1962,8 @@
     (pin "2" (uuid 336f37d4-e2f9-443a-a9c9-dfbede1013e1))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "L1") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "L301") (unit 1)
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -1990,7 +1972,7 @@
   (symbol (lib_id "power:GND") (at 95.25 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76dea2fd-a2f2-40bc-8e53-20320432ada1)
-    (property "Reference" "#PWR016" (at 95.25 176.53 0)
+    (property "Reference" "#PWR011" (at 95.25 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 175.26 0)
@@ -2005,11 +1987,37 @@
     (pin "1" (uuid c464af4d-6678-4e62-b31e-cf5c0a35fba0))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "#PWR0304") (unit 1)
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 184.15 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7b3e6b0a-a08b-4760-877e-84f1bad5adbc)
+    (property "Reference" "R11" (at 184.15 49.53 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "499R" (at 184.15 52.07 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (at 184.15 57.658 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 184.15 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "C4354889" (at 184.15 55.88 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2fa441b7-9b8d-40b4-85e2-32c68d47af7f))
+    (pin "2" (uuid fe3ee83b-815e-4a19-b6e8-2c5a4be7364b))
+    (instances
+      (project "pixie-rev-4"
+        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2024,13 +2032,16 @@
     (property "Value" "40Mhz" (at 52.07 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "firefly:Crystal_SeikoEpson_FA20H" (at 48.26 166.37 0)
+    (property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" (at 48.26 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 48.26 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "C255973" (at 48.26 166.37 0)
+    (property "MPN_old" "C255973" (at 48.26 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "C409424" (at 48.26 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1acfefc7-9417-498f-b2a4-3b976df2a395))
@@ -2039,11 +2050,8 @@
     (pin "4" (uuid f286ad52-40d2-4432-ae4b-834ec9543b7b))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "Y1") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "Y301") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -2071,26 +2079,23 @@
     (pin "2" (uuid 42d9c6f0-514e-4039-97cd-351028a2dcae))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C13") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C309") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 38.1 101.6 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 8e048adf-47fe-44f1-92a8-1b2ec8628748)
-    (property "Reference" "PU1" (at 34.798 96.52 90)
+    (property "Reference" "PU1" (at 34.29 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 34.798 99.06 90)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm" (at 38.1 96.52 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 38.1 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 38.1 96.52 0)
@@ -2099,11 +2104,8 @@
     (pin "1" (uuid d8b14387-5e96-4826-92a5-263c618da54f))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "PU1") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "PU301") (unit 1)
+          (reference "PU1") (unit 1)
         )
       )
     )
@@ -2112,7 +2114,7 @@
   (symbol (lib_id "Device:C") (at 264.16 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99bbf518-6d85-4fbc-97c9-1be5cb0f18ad)
-    (property "Reference" "C15" (at 267.97 44.4499 0)
+    (property "Reference" "C17" (at 267.97 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 267.97 46.9899 0)
@@ -2131,11 +2133,8 @@
     (pin "2" (uuid 0ff20234-0892-4b2c-93d8-cacf2be4f16c))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C15") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C313") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -2144,7 +2143,7 @@
   (symbol (lib_id "Device:C") (at 33.02 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ad8a39a-20d7-4ff6-a212-e9495d46eade)
-    (property "Reference" "C9" (at 36.83 44.4499 0)
+    (property "Reference" "C5" (at 36.83 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3p3" (at 36.83 46.9899 0)
@@ -2163,11 +2162,8 @@
     (pin "2" (uuid 1ec38af6-2c43-4e6b-bfa2-2572529bb020))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C9") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C301") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2176,7 +2172,7 @@
   (symbol (lib_id "power:GND") (at 256.54 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b233749-dbfe-4ebd-bf9b-41d33ba8efde)
-    (property "Reference" "#PWR01" (at 256.54 134.62 0)
+    (property "Reference" "#PWR015" (at 256.54 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 133.35 0)
@@ -2191,11 +2187,8 @@
     (pin "1" (uuid ef070719-6d18-4437-aad6-a75624e5442f))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "#PWR0308") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2204,7 +2197,7 @@
   (symbol (lib_id "Device:C") (at 256.54 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b45f1f9-0b1c-4745-a188-02ad5f186796)
-    (property "Reference" "C311" (at 260.35 118.11 0)
+    (property "Reference" "C15" (at 260.35 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 260.35 120.65 0)
@@ -2224,7 +2217,7 @@
     (instances
       (project "pixie-rev-4"
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C311") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -2233,7 +2226,7 @@
   (symbol (lib_id "power:GND") (at 109.22 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b662bfe-4a32-4327-9777-d74ddc832280)
-    (property "Reference" "#PWR015" (at 109.22 186.69 0)
+    (property "Reference" "#PWR012" (at 109.22 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 185.42 0)
@@ -2248,11 +2241,8 @@
     (pin "1" (uuid 97c1a365-939e-493a-b2b5-5765d5b3807b))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "#PWR015") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "#PWR0305") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2261,7 +2251,7 @@
   (symbol (lib_id "power:GND") (at 256.54 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a169482e-b9ce-4c50-b7bc-e8324930d82d)
-    (property "Reference" "#PWR01" (at 256.54 109.22 0)
+    (property "Reference" "#PWR014" (at 256.54 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 107.95 0)
@@ -2276,11 +2266,8 @@
     (pin "1" (uuid d9376ff6-8988-45e3-9de0-1ee7bccd663f))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "#PWR01") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "#PWR0307") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -2289,7 +2276,7 @@
   (symbol (lib_id "Device:C") (at 241.3 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ab415a26-185b-4d17-9ac1-0eaf08deeca5)
-    (property "Reference" "C2" (at 245.11 92.71 0)
+    (property "Reference" "C12" (at 245.11 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 245.11 95.25 0)
@@ -2308,11 +2295,8 @@
     (pin "2" (uuid 55ad70ce-d4e8-40c3-9de6-6185b58ca936))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C2") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C308") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -2321,7 +2305,7 @@
   (symbol (lib_id "Device:R") (at 139.7 148.59 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid b57cbe5c-3c5d-4d81-bcee-06f0f423cfb6)
-    (property "Reference" "R303" (at 140.97 149.86 0)
+    (property "Reference" "R5" (at 140.97 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 140.97 147.32 0)
@@ -2338,7 +2322,7 @@
     (instances
       (project "pixie-rev-4"
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "R303") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -2347,7 +2331,7 @@
   (symbol (lib_id "Device:R") (at 140.97 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba33d78f-3a53-42ae-9ea5-8bf9d25b4eb4)
-    (property "Reference" "R304" (at 140.97 157.48 90)
+    (property "Reference" "R6" (at 140.97 157.48 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 140.97 162.56 90)
@@ -2367,7 +2351,7 @@
     (instances
       (project "pixie-rev-4"
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "R304") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2376,7 +2360,7 @@
   (symbol (lib_id "PCM_Espressif:ESP32-C3") (at 149.86 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd6898e4-fa77-4f97-b514-b01b7ef756e4)
-    (property "Reference" "U3" (at 175.26 52.07 0)
+    (property "Reference" "U4" (at 175.26 52.07 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "ESP32-C3" (at 175.26 113.03 0)
@@ -2426,11 +2410,8 @@
     (pin "32" (uuid 9fe99a30-b78a-4395-bf6c-011f78098362))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "U3") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "U302") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2439,7 +2420,7 @@
   (symbol (lib_id "Device:C") (at 45.72 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd90550e-908f-4c45-b69e-7552f3005794)
-    (property "Reference" "C6" (at 49.53 106.6799 0)
+    (property "Reference" "C7" (at 49.53 106.6799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 49.53 109.2199 0)
@@ -2458,11 +2439,8 @@
     (pin "2" (uuid ccabc754-0903-42ee-a331-6ab09e016d1d))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C6") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C303") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -2471,7 +2449,7 @@
   (symbol (lib_id "power:GND") (at 264.16 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1a92f42-e416-4049-b8a6-1c61890a829c)
-    (property "Reference" "#PWR013" (at 264.16 60.96 0)
+    (property "Reference" "#PWR017" (at 264.16 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 264.16 59.69 0)
@@ -2486,11 +2464,8 @@
     (pin "1" (uuid 92b06320-ed2b-4583-acef-41d0cbf0f4aa))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "#PWR013") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "#PWR0310") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2499,7 +2474,7 @@
   (symbol (lib_id "Device:C") (at 236.22 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6fef272-3456-4190-a207-4a9a1b0e0c8b)
-    (property "Reference" "C10" (at 240.03 44.4499 0)
+    (property "Reference" "C11" (at 240.03 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 240.03 46.9899 0)
@@ -2518,11 +2493,8 @@
     (pin "2" (uuid 8650bd6e-252c-482e-b724-19a75060d04a))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C10") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C307") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2531,7 +2503,7 @@
   (symbol (lib_id "Device:C") (at 256.54 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c720c456-56f0-4994-b274-02e783fd22c4)
-    (property "Reference" "C312" (at 260.35 143.51 0)
+    (property "Reference" "C16" (at 260.35 143.51 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 260.35 146.05 0)
@@ -2551,7 +2523,7 @@
     (instances
       (project "pixie-rev-4"
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C312") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -2560,7 +2532,7 @@
   (symbol (lib_id "power:GND") (at 59.69 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8a5d2fc-b630-43d6-b274-c62eab2a850c)
-    (property "Reference" "#PWR012" (at 59.69 60.96 0)
+    (property "Reference" "#PWR010" (at 59.69 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 59.69 0)
@@ -2575,11 +2547,8 @@
     (pin "1" (uuid f90db6e4-5da9-45ee-8758-a9581193fc5b))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "#PWR012") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "#PWR0303") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -2588,7 +2557,7 @@
   (symbol (lib_id "Device:R") (at 45.72 95.25 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1198197-52b8-4185-9214-a8a4ec0f7673)
-    (property "Reference" "R2" (at 48.26 93.9799 0)
+    (property "Reference" "R3" (at 48.26 93.9799 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "5k1" (at 48.26 96.5199 0)
@@ -2607,11 +2576,8 @@
     (pin "2" (uuid c4ebf78e-ba21-4712-8d5e-d3688a67c733))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "R2") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "R301") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2620,7 +2586,7 @@
   (symbol (lib_id "Memory_Flash:W25Q128JVS") (at 109.22 165.1 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d18e1405-11f7-4641-ae9f-505bd5a58b6b)
-    (property "Reference" "U4" (at 116.84 153.67 0)
+    (property "Reference" "U3" (at 116.84 153.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q128JVS" (at 123.19 176.53 0)
@@ -2645,11 +2611,8 @@
     (pin "8" (uuid 8c0a2eee-dcb1-422e-ae80-0a47c3e1ba75))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "U4") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "U301") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2658,7 +2621,7 @@
   (symbol (lib_id "Device:R") (at 149.86 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d22b687e-29fc-4dac-baa1-679fb097e279)
-    (property "Reference" "R308" (at 149.86 176.53 90)
+    (property "Reference" "R10" (at 149.86 176.53 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 149.86 181.61 90)
@@ -2678,7 +2641,7 @@
     (instances
       (project "pixie-rev-4"
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "R308") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2687,7 +2650,7 @@
   (symbol (lib_id "Device:R") (at 140.97 185.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec799c35-8509-4633-b9c7-064ea2c79d97)
-    (property "Reference" "R306" (at 140.97 182.88 90)
+    (property "Reference" "R8" (at 140.97 182.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 140.97 187.96 90)
@@ -2707,7 +2670,7 @@
     (instances
       (project "pixie-rev-4"
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "R306") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -2716,7 +2679,7 @@
   (symbol (lib_id "Device:C") (at 36.83 172.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed05eaa1-319b-4eee-8bdd-27b718708fbf)
-    (property "Reference" "C11" (at 33.02 171.4499 0)
+    (property "Reference" "C6" (at 33.02 171.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10p" (at 33.02 173.9899 0)
@@ -2735,11 +2698,8 @@
     (pin "2" (uuid 62291ab1-b9d6-4ff2-848a-eaa18368e24f))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C11") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C302") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -2748,7 +2708,7 @@
   (symbol (lib_id "Device:C") (at 256.54 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f5fd45f0-122f-46b7-ae0f-6cd907fdcc4e)
-    (property "Reference" "C4" (at 260.35 92.71 0)
+    (property "Reference" "C14" (at 260.35 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10n" (at 260.35 95.25 0)
@@ -2767,11 +2727,8 @@
     (pin "2" (uuid 2a24cda3-ddec-4b2b-b9a4-c11a9ca5c474))
     (instances
       (project "pixie-rev-4"
-        (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
-          (reference "C4") (unit 1)
-        )
         (path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
-          (reference "C310") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
