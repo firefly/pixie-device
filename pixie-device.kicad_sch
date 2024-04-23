@@ -1018,7 +1018,7 @@
 			(uuid "da81628e-7149-4025-aade-718c3c6609b7")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
 					(reference "SW3")
 					(unit 1)
@@ -1085,7 +1085,7 @@
 			(uuid "8cad5ff0-59f3-468f-8737-2a9e9858c244")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
 					(reference "TP2")
 					(unit 1)
@@ -1168,7 +1168,7 @@
 			(uuid "5ea19da3-e26f-402a-b85e-f55a6116bebf")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
 					(reference "SW4")
 					(unit 1)
@@ -1251,7 +1251,7 @@
 			(uuid "0153cefa-0651-464c-97d1-fc5b8fe6e7ac")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
 					(reference "SW1")
 					(unit 1)
@@ -1334,7 +1334,7 @@
 			(uuid "852181d8-17d9-4ee4-ac61-fbf89b7a95ef")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
 					(reference "SW2")
 					(unit 1)
@@ -1400,7 +1400,7 @@
 			(uuid "7b5849cc-d159-4f75-afff-a1396e846d98")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
 					(reference "#PWR01")
 					(unit 1)
@@ -1467,7 +1467,7 @@
 			(uuid "eaa7897d-1d9f-49c3-89f1-9f2bb280de21")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
 					(reference "TP1")
 					(unit 1)
@@ -1636,7 +1636,7 @@
 			(uuid "9852362a-4111-4602-b1ff-14575e4e496e")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
 					(page "3")
 				)
@@ -1724,7 +1724,7 @@
 			(uuid "cb4060c8-d288-4995-9d0c-622ca927bf2c")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
 					(page "4")
 				)
@@ -1782,7 +1782,7 @@
 			(uuid "f7aa2061-9ebd-468b-9da4-1dac3a558c7a")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454"
 					(page "2")
 				)

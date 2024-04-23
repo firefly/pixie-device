@@ -4432,7 +4432,7 @@
 			(uuid "31ac5267-a86b-4ea1-8457-f4a313a7721b")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "#PWR08")
 					(unit 1)
@@ -4498,7 +4498,7 @@
 			(uuid "cada422d-4ea3-4b70-85bd-b5f750dc84b1")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "#PWR013")
 					(unit 1)
@@ -4574,7 +4574,7 @@
 			(uuid "a045cf12-8ed6-4559-8584-06e5e1a2ff4c")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "R7")
 					(unit 1)
@@ -4643,7 +4643,7 @@
 			(uuid "72bffaba-79f8-49e0-9ad1-ad3be7a14c17")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "AE1")
 					(unit 1)
@@ -4722,7 +4722,7 @@
 			(uuid "76861f75-7c25-4400-b258-bac284b9ff9b")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "R4")
 					(unit 1)
@@ -4801,7 +4801,7 @@
 			(uuid "3d85573e-d57c-411e-b7c6-580a8b9999fa")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C8")
 					(unit 1)
@@ -4867,7 +4867,7 @@
 			(uuid "0bc92c90-22a0-4598-a659-201d94f75d2a")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "BOOT1")
 					(unit 1)
@@ -4933,7 +4933,7 @@
 			(uuid "1e0aa23c-2eaa-4b2f-b208-d40392b80914")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "#PWR016")
 					(unit 1)
@@ -5009,7 +5009,7 @@
 			(uuid "a6cf2107-ccaf-4162-9866-465546f297a8")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "R9")
 					(unit 1)
@@ -5075,7 +5075,7 @@
 			(uuid "62541c80-ba39-42e1-ad8f-88453ea41980")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "#PWR09")
 					(unit 1)
@@ -5152,7 +5152,7 @@
 			(uuid "eceb2f60-fcba-4f3d-8a65-43936c345176")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "L2")
 					(unit 1)
@@ -5231,7 +5231,7 @@
 			(uuid "71df088b-67d1-463f-8d84-01c3292d609f")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C9")
 					(unit 1)
@@ -5309,7 +5309,7 @@
 			(uuid "1890b243-27a9-47bb-9711-086a9ae221d0")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C10")
 					(unit 1)
@@ -5386,7 +5386,7 @@
 			(uuid "336f37d4-e2f9-443a-a9c9-dfbede1013e1")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "L1")
 					(unit 1)
@@ -5451,7 +5451,7 @@
 			(uuid "c464af4d-6678-4e62-b31e-cf5c0a35fba0")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "#PWR011")
 					(unit 1)
@@ -5528,7 +5528,7 @@
 			(uuid "fe3ee83b-815e-4a19-b6e8-2c5a4be7364b")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "R11")
 					(unit 1)
@@ -5620,7 +5620,7 @@
 			(uuid "f286ad52-40d2-4432-ae4b-834ec9543b7b")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "Y1")
 					(unit 1)
@@ -5699,7 +5699,7 @@
 			(uuid "42d9c6f0-514e-4039-97cd-351028a2dcae")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C13")
 					(unit 1)
@@ -5764,7 +5764,7 @@
 			(uuid "d8b14387-5e96-4826-92a5-263c618da54f")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "PU1")
 					(unit 1)
@@ -5843,7 +5843,7 @@
 			(uuid "0ff20234-0892-4b2c-93d8-cacf2be4f16c")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C17")
 					(unit 1)
@@ -5922,7 +5922,7 @@
 			(uuid "1ec38af6-2c43-4e6b-bfa2-2572529bb020")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C5")
 					(unit 1)
@@ -5988,7 +5988,7 @@
 			(uuid "ef070719-6d18-4437-aad6-a75624e5442f")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "#PWR015")
 					(unit 1)
@@ -6067,7 +6067,7 @@
 			(uuid "627c71c0-585f-4c76-982d-e446501ddcf6")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C15")
 					(unit 1)
@@ -6132,7 +6132,7 @@
 			(uuid "97c1a365-939e-493a-b2b5-5765d5b3807b")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "#PWR012")
 					(unit 1)
@@ -6198,7 +6198,7 @@
 			(uuid "d9376ff6-8988-45e3-9de0-1ee7bccd663f")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "#PWR014")
 					(unit 1)
@@ -6277,7 +6277,7 @@
 			(uuid "55ad70ce-d4e8-40c3-9de6-6185b58ca936")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C12")
 					(unit 1)
@@ -6346,7 +6346,7 @@
 			(uuid "8fdd457f-7266-475a-83b5-2694745182f8")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "R5")
 					(unit 1)
@@ -6422,7 +6422,7 @@
 			(uuid "237be60f-9c72-4f09-bc2b-8cbb77832eec")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "R6")
 					(unit 1)
@@ -6593,7 +6593,7 @@
 			(uuid "9fe99a30-b78a-4395-bf6c-011f78098362")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "U4")
 					(unit 1)
@@ -6672,7 +6672,7 @@
 			(uuid "ccabc754-0903-42ee-a331-6ab09e016d1d")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C7")
 					(unit 1)
@@ -6738,7 +6738,7 @@
 			(uuid "92b06320-ed2b-4583-acef-41d0cbf0f4aa")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "#PWR017")
 					(unit 1)
@@ -6817,7 +6817,7 @@
 			(uuid "8650bd6e-252c-482e-b724-19a75060d04a")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C11")
 					(unit 1)
@@ -6896,7 +6896,7 @@
 			(uuid "978fc506-768e-44d6-a31d-646f3d8aa1ba")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C16")
 					(unit 1)
@@ -6962,7 +6962,7 @@
 			(uuid "f90db6e4-5da9-45ee-8758-a9581193fc5b")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "#PWR010")
 					(unit 1)
@@ -7041,7 +7041,7 @@
 			(uuid "c4ebf78e-ba21-4712-8d5e-d3688a67c733")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "R3")
 					(unit 1)
@@ -7138,7 +7138,7 @@
 			(uuid "8c0a2eee-dcb1-422e-ae80-0a47c3e1ba75")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "U3")
 					(unit 1)
@@ -7214,7 +7214,7 @@
 			(uuid "2c7b8d14-6d16-4e7e-bc36-d4e002cdac79")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "R10")
 					(unit 1)
@@ -7290,7 +7290,7 @@
 			(uuid "588882d9-8ffe-429c-aeeb-dfee6bf96bcf")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "R8")
 					(unit 1)
@@ -7370,7 +7370,7 @@
 			(uuid "62291ab1-b9d6-4ff2-848a-eaa18368e24f")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C6")
 					(unit 1)
@@ -7449,7 +7449,7 @@
 			(uuid "2a24cda3-ddec-4b2b-b9a4-c11a9ca5c474")
 		)
 		(instances
-			(project "pixie-rev-4"
+			(project "pixie-device"
 				(path "/0ccedecd-4aba-4418-a5c8-d9b621b73454/3ca0d2be-52dc-4223-9383-93ccbf57f2c6"
 					(reference "C14")
 					(unit 1)
