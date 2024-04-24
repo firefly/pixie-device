@@ -16,7 +16,7 @@ Rev.6
 - PCB Batch:
   - X devices
   - ENIG, 0.8mm, mouse-bites, purple mask
-  - 2x3 panels
+  - Panel: 2x3 devices, 100mm x 100mm panel
 
 Rev.5
 -----
@@ -32,7 +32,7 @@ Rev.5
 - PCB Batch
   - 25 devices
   - ENIG, 0.8mm, mouse-bites, green mask
-  - panel testing; 1 device + 1 pin per 7x7 panel
+  - Panel (testing): 1 device + 1 pin per, 70mm x 70mm panel
 
 Rev.4
 -----
