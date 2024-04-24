@@ -5562,7 +5562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
+		(property "Footprint" "firefly:crystal_2520"
 			(at 48.26 166.37 0)
 			(effects
 				(font
@@ -6457,7 +6457,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
 			(at 149.86 121.92 0)
 			(effects
 				(font
