@@ -1541,6 +1541,7 @@
 			(at -0.1 -2.95 -90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c4d329fd-457d-43fc-ad91-afb7ac3593c1")
 			(effects
 				(font
@@ -1721,7 +1722,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "27defd64-81e1-4768-9a7c-83f9174c4e12")
 		)
-		(model "${KIPRJMOD}/3d-models/button-oval.wrl"
+		(model "${KIPRJMOD}/kicad-components/3d-models/button-oval.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1734,7 +1735,6 @@
 		)
 	)
 	(footprint "firefly:USB_C_SINK"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "1843b9b1-07d0-448c-861a-333fa407cb12")
 		(at 110.38 70 180)
@@ -3535,6 +3535,7 @@
 			(at -0.1 -2.95 -90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8df02368-2afe-44db-a4f0-3ecb2d8e5bc0")
 			(effects
 				(font
@@ -3715,7 +3716,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "a44d894d-c3b4-42b3-9a1d-4ea8dfc779d1")
 		)
-		(model "${KIPRJMOD}/3d-models/button-oval.wrl"
+		(model "${KIPRJMOD}/kicad-components/3d-models/button-oval.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4254,6 +4255,7 @@
 			(at -0.01 -2 -90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0edb6085-4f5e-41a4-b5a6-b7b27291ebe4")
 			(effects
 				(font
@@ -4473,7 +4475,7 @@
 			(pintype "power_in")
 			(uuid "7cda2ec1-c342-49f5-9e3c-af2a8ade1edd")
 		)
-		(model "${KIPRJMOD}/3d-models/ws2812c-2020-v1.wrl"
+		(model "${KIPRJMOD}/kicad-components/3d-models/ws2812c-2020-v1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7163,6 +7165,7 @@
 			(at -0.1 -2.95 -90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f862f467-35f2-4122-af4b-3b3c9f038a4d")
 			(effects
 				(font
@@ -7343,7 +7346,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "f79432db-b359-4c0d-a802-2eed12dad447")
 		)
-		(model "${KIPRJMOD}/3d-models/button-oval.wrl"
+		(model "${KIPRJMOD}/kicad-components/3d-models/button-oval.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7592,6 +7595,7 @@
 			(at -0.01 -2 -90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "659c4a37-cdb7-4a2a-b025-1c8b8bc890c2")
 			(effects
 				(font
@@ -7811,7 +7815,7 @@
 			(pintype "power_in")
 			(uuid "d63437b5-97af-4c68-b424-4fbb8149dd3b")
 		)
-		(model "${KIPRJMOD}/3d-models/ws2812c-2020-v1.wrl"
+		(model "${KIPRJMOD}/kicad-components/3d-models/ws2812c-2020-v1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14156,6 +14160,7 @@
 			(at -0.01 -2 -90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f4b52a6c-5175-4731-90aa-e0e4e84859cb")
 			(effects
 				(font
@@ -14375,7 +14380,7 @@
 			(pintype "power_in")
 			(uuid "f6c25cbf-92e8-4719-9844-c477d430ca93")
 		)
-		(model "${KIPRJMOD}/3d-models/ws2812c-2020-v1.wrl"
+		(model "${KIPRJMOD}/kicad-components/3d-models/ws2812c-2020-v1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16768,6 +16773,7 @@
 			(at -0.01 -2 -90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "16c4f3da-d30f-4c05-ac40-8b840fa5ace7")
 			(effects
 				(font
@@ -16987,7 +16993,7 @@
 			(pintype "power_in")
 			(uuid "05718cb3-3393-4bb9-a86a-2a53b116986f")
 		)
-		(model "${KIPRJMOD}/3d-models/ws2812c-2020-v1.wrl"
+		(model "${KIPRJMOD}/kicad-components/3d-models/ws2812c-2020-v1.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17019,6 +17025,7 @@
 			(at -0.1 -2.95 -90)
 			(unlocked yes)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "50d75955-7618-44e1-8ba7-b416cb10af6a")
 			(effects
 				(font
@@ -17199,7 +17206,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "79389c48-caa3-4581-a6c6-074e922937e9")
 		)
-		(model "${KIPRJMOD}/3d-models/button-oval.wrl"
+		(model "${KIPRJMOD}/kicad-components/3d-models/button-oval.wrl"
 			(offset
 				(xyz 0 0 0)
 			)

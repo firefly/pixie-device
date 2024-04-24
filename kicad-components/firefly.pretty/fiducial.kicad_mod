@@ -1,0 +1,19 @@
+(footprint "fiducial" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd board_only exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 202b0d31-45da-434c-af06-a1ec7fbebaec)
+  )
+  (fp_text value "fiducial" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5959c277-e055-4da3-a639-9c785abac655)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8196e467-b4ef-4fe9-a0ff-a8968ef71b13)
+  )
+  (fp_circle (center 0 0) (end 0.75 0)
+    (stroke (width 0.5) (type solid)) (fill none) (layer "F.SilkS") (tstamp e4722e0f-2d4a-4b91-acb0-876f5aac93f7))
+  (pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask") (tstamp 12031bf6-60e3-4350-b637-ca1a7fb19b7c))
+)
