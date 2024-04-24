@@ -32,12 +32,12 @@ Firefly Pixie Tech Specs
 Photos
 -----------
 
-See the [./output/](output) folder for rendered schematics, PCBs
+See the [output](./output/) folder for rendered schematics, PCBs
 and 3D renders along with photos of the various revisions.
 
 <p align="center">
-  <img src="./output/pixie-rev-4-front.jpg" width="350" title="Front of Firefly Pixie">
-  <img src="./output/pixie-rev-4-back.jpg" width="350" alt="Back of Firefly Pixie">
+  <img src="./output/rev-4/render-front.jpg" width="350" title="Front of Firefly Pixie">
+  <img src="./output/rev-4/render-back.jpg" width="350" alt="Back of Firefly Pixie">
 </p>
 
 
