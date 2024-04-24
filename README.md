@@ -1,10 +1,21 @@
-Firefly Pixie (Rev.5)
-=====================
+Firefly Pixie
+=============
 
-The Rev.4 of the compact Firefly Hardware Wallet.
+The Firefly Pixie is a low-cost, high-quality hardware wallet
+for the Ethereum (and ilk) blockchain. See the
+[firmware](https://github.com/firefly/pixie-firmware) repository
+for the necessary software to flash on the device.
 
-Firefly Pixie Specifications
-----------------------------
+This repository stores the hardware design files, schematics and
+PCB layouts which can be opened using the amazing open source
+EDA Application, [KiCad](https://www.kicad.org).
+
+See the [CHANGELOG](./changelog.md) for high-level changes
+between board revisions.
+
+
+Firefly Pixie Tech Specs
+------------------------
 
 - **Processor:** ESP32-C3 (32-bit RISC-V)
 - **Speed:** 160Mhz
@@ -18,26 +29,17 @@ Firefly Pixie Specifications
   - BLE
 
 
-Screenshots
+Photos
 -----------
 
-**Schematic**
-
-<p align="center">
-  <img src="./output/pixie-rev-4.svg" width="350" title="Schematic of Firefly Pixie: Blocks">
-  <img src="./output/pixie-rev-4-Power.svg" width="350" title="Schematic of Firefly Pixie: Power">
-</p>
-<p align="center">
-  <img src="./output/pixie-rev-4-MCU.svg" width="350" title="Schematic of Firefly Pixie: MCU">
-  <img src="./output/pixie-rev-4-Output.svg" width="350" title="Schematic of Firefly Pixie: Output">
-</p>
-
-**3D Renders**
+See the [./output/](output) folder for rendered schematics, PCBs
+and 3D renders along with photos of the various revisions.
 
 <p align="center">
   <img src="./output/pixie-rev-4-front.jpg" width="350" title="Front of Firefly Pixie">
   <img src="./output/pixie-rev-4-back.jpg" width="350" alt="Back of Firefly Pixie">
 </p>
+
 
 License
 -------
