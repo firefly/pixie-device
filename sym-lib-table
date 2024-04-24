@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "firefly")(type "KiCad")(uri "${KIPRJMOD}/kicad-components/firefly.kicad_sym")(options "")(descr ""))
+)
