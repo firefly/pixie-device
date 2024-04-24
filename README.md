@@ -10,7 +10,7 @@ This repository stores the hardware design files, schematics and
 PCB layouts which can be opened using the amazing open source
 EDA Application, [KiCad](https://www.kicad.org).
 
-See the [CHANGELOG](./changelog.md) for high-level changes
+See the [CHANGELOG](./CHANGELOG.md) for high-level changes
 between board revisions.
 
 
