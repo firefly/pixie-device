@@ -39,8 +39,8 @@ See the [output](./output/) folder for rendered schematics, PCBs
 and 3D renders along with photos of the various revisions.
 
 <p align="center">
-  <img src="./output/rev-6/render-front.jpg" width="350" title="Front of Firefly Pixie">
-  <img src="./output/rev-6/render-back.jpg" width="350" alt="Back of Firefly Pixie">
+  <img src="./output/rev-6/render-device-front.jpg" width="350" title="Front of Firefly Pixie">
+  <img src="./output/rev-6/render-device-back.jpg" width="350" alt="Back of Firefly Pixie">
 </p>
 
 
