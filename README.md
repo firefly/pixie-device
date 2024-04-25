@@ -7,15 +7,12 @@ Pixie Hardware Wallet for Ethereum (and ilk).
 - [Firmware](https://github.com/firefly/pixie-firmware)
 - [Case](https://github.com/firefly/pixie-case)
 
-To modify the files, the open-source EDA application,
-[KiCad](https://www.kicad.org), is necessary.
-
 See the [CHANGELOG](./CHANGELOG.md) for high-level changes
 between board revisions.
 
 
-Firefly Pixie Tech Specs
-------------------------
+Tech Specs
+----------
 
 - **Processor:** ESP32-C3 (32-bit RISC-V)
 - **Speed:** 160Mhz
@@ -29,6 +26,12 @@ Firefly Pixie Tech Specs
   - BLE
 
 
+Notes
+-----
+
+- To modify the files, use [KiCad](https://www.kicad.org) (open-source EDA application)
+
+
 Photos
 -----------
 
@@ -36,12 +39,12 @@ See the [output](./output/) folder for rendered schematics, PCBs
 and 3D renders along with photos of the various revisions.
 
 <p align="center">
-  <img src="./output/rev-4/render-front.jpg" width="350" title="Front of Firefly Pixie">
-  <img src="./output/rev-4/render-back.jpg" width="350" alt="Back of Firefly Pixie">
+  <img src="./output/rev-6/render-front.jpg" width="350" title="Front of Firefly Pixie">
+  <img src="./output/rev-6/render-back.jpg" width="350" alt="Back of Firefly Pixie">
 </p>
 
 
 License
 -------
 
-MIT License. *(some dependenceies are BSD Licensed)*
+MIT License.
