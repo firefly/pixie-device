@@ -3,8 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(tags "firefly, addressable, LED")
 	(property "Reference" "REF**"
-		(at 0 2.2 0)
+		(at 0 2.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "e4c73bf5-cd71-4f79-9058-0b30931c1a95")
@@ -163,6 +164,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "9832d991-060c-45cf-ad66-a9e5947d7c75")
+	)
+	(fp_poly
+		(pts
+			(xy 0.96 1.27) (xy 1.2 1.6) (xy 0.72 1.6) (xy 0.96 1.27)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "73a658a7-acf1-467c-859a-55915e154cc2")
 	)
 	(fp_rect
 		(start 1.35 -1.25)

@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(tags "firefly, crystal, oscillator")
 	(property "Reference" "REF**"
 		(at -0.01 2.22 0)
 		(unlocked yes)
@@ -83,6 +84,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "a386a393-0aaa-41a2-a4c6-8039f383ba81")
+	)
+	(fp_poly
+		(pts
+			(xy -1.57 0.64) (xy -1.9 0.88) (xy -1.9 0.4) (xy -1.57 0.64)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "6b3953a5-a487-4f62-a821-e3c0bc71e98b")
 	)
 	(fp_rect
 		(start -1.75 -1.5)
