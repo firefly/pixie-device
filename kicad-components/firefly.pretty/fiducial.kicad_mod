@@ -1,19 +1,100 @@
-(footprint "fiducial" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr smd board_only exclude_from_bom)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp 202b0d31-45da-434c-af06-a1ec7fbebaec)
-  )
-  (fp_text value "fiducial" (at 0 1 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 5959c277-e055-4da3-a639-9c785abac655)
-  )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 8196e467-b4ef-4fe9-a0ff-a8968ef71b13)
-  )
-  (fp_circle (center 0 0) (end 0.75 0)
-    (stroke (width 0.5) (type solid)) (fill none) (layer "F.SilkS") (tstamp e4722e0f-2d4a-4b91-acb0-876f5aac93f7))
-  (pad "1" smd circle (at 0 0) (size 1 1) (layers "F.Cu" "F.Mask") (tstamp 12031bf6-60e3-4350-b637-ca1a7fb19b7c))
+(footprint "fiducial"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "firefly")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "202b0d31-45da-434c-af06-a1ec7fbebaec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "fiducial"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5959c277-e055-4da3-a639-9c785abac655")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68e8f085-b873-4fbe-ab87-016a62fa0c0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ccd36eb-b161-4a0c-b322-a67c0d0d08f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7be17ec5-010d-431e-bbae-e0aa855b1005")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e4722e0f-2d4a-4b91-acb0-876f5aac93f7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8196e467-b4ef-4fe9-a0ff-a8968ef71b13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "12031bf6-60e3-4350-b637-ca1a7fb19b7c")
+	)
 )

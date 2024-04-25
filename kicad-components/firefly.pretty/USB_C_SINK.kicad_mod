@@ -3,6 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
+	(tags "firefly, USB, USBC, USB-C, connector, sink, sunk")
 	(property "Reference" "REF**"
 		(at 0 -3.55 0)
 		(unlocked yes)
@@ -284,5 +285,16 @@
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
 		(uuid "8a2b772b-82b0-4af0-ac36-6e5d8800dbd7")
+	)
+	(model "${KIPRJMOD}/kicad-components/3d-models/usb-c-sink-8.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
