@@ -1,14 +1,14 @@
-Firefly Pixie
-=============
+Firefly Pixie: Hardware
+=======================
 
-The Firefly Pixie is a low-cost, high-quality hardware wallet
-for the Ethereum (and ilk) blockchain. See the
-[firmware](https://github.com/firefly/pixie-firmware) repository
-for the necessary software to flash on the device.
+The hardware design, schematics and PCB layouts for the Firefly
+Pixie Hardware Wallet for Ethereum (and ilk).
 
-This repository stores the hardware design files, schematics and
-PCB layouts which can be opened using the amazing open source
-EDA Application, [KiCad](https://www.kicad.org).
+- [Firmware](https://github.com/firefly/pixie-firmware)
+- [Case](https://github.com/firefly/pixie-case)
+
+To modify the files, the open-source EDA application,
+[KiCad](https://www.kicad.org), is necessary.
 
 See the [CHANGELOG](./CHANGELOG.md) for high-level changes
 between board revisions.
