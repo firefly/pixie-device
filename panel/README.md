@@ -49,7 +49,7 @@ If moving the tabs in the Firefly Pixie KiCad project (in the parent
 folder), make sure to follow the convention it uses for tabs, to ensure
 this panelize works correctly:
 
-- The tab must be 4.4mm long, with a 1mm radius 180deg arc on both sides
+- The tab must be 4.4mm long, with a 0.5mm radius 180deg arc on both sides
 - The "Tab" footprint should be flush and cneter with the tab,with its width set to "4.4mm"
 
 License
