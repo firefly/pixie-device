@@ -28,6 +28,20 @@ output `panel.kicad_pcb` in the same folder.
 /Users/firefly/pixie-device/panel> ./panelize.sh
 ```
 
+Renders
+-------
+
+<p align="center">
+  <img src="./output/panel-front.jpg" width="350" title="Front of Firefly Pixie panel">
+  <img src="./output/panel-back.jpg" width="350" alt="Back of Firefly Pixie panel">
+</p>
+
+<p align="center">
+  <img src="./output/board-front.jpg" width="350" title="Front of Firefly Pixie panel single board">
+  <img src="./output/board-back.jpg" width="350" alt="Back of Firefly Pixie panel single board">
+</p>
+
+
 Notes
 -----
 
