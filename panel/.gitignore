@@ -1,3 +1,5 @@
 
 # Intermediate files
 panel.kicad_pcbpre-sed
+
+__pycache__/**
