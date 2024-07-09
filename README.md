@@ -19,17 +19,18 @@ Tech Specs
 - **Memory:** 400kb RAM, 16Mb Flash, 4kb eFuse
 - **Inputs:** 4x tactile buttons
 - **Outputs:**
-  - 240x240px IPS 1.3" display (16-bit color)
-  - 4x RGB LED (WS2812B)
+  - 240x240px IPS 1.3" display (16-bit color; RGB565)
+  - 4x RGB LED (WS2812B; 24-bit color; GRB888)
 - **Conectivity:**
-  - USB-C
+  - USB-C (power + JTAG/CDC-ACM)
   - BLE
 
 
-Notes
------
+Contributing
+------------
 
 - To modify the files, use [KiCad](https://www.kicad.org) (open-source EDA application)
+- Sicne the `git diff` involved in modifying these files is somewhat opaque, please start a discussion first, so any changes can be coordinated
 
 
 Photos
