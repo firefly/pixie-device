@@ -4,7 +4,7 @@
 /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/kikit panelize \
     --layout 'grid; rows: 3; cols: 2; space: 2mm' \
     --tabs 'annotation' \
-    --cuts 'mousebites; drill: 0.6mm; spacing: 1mm; offset: 0.8mm; prolong: 0mm' \
+    --cuts 'mousebites; drill: 0.6mm; spacing: 1.0mm; offset: 0.3mm; prolong: 0.5mm' \
     --framing 'frame; width: 5mm; space: 2mm; cuts: h; fillet: 0.5mm' \
     --post 'millradius: 1mm' \
     --copperfill 'solid; edgeclearance: 0mm; layers: all' \
