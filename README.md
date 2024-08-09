@@ -21,7 +21,7 @@ Tech Specs
 - **Outputs:**
   - 240x240px IPS 1.3" display (16-bit color; RGB565)
   - 4x RGB LED (WS2812B; 24-bit color; GRB888)
-- **Conectivity:**
+- **Connectivity:**
   - USB-C (power + JTAG/CDC-ACM)
   - BLE
 
@@ -30,7 +30,7 @@ Contributing
 ------------
 
 - To modify the files, use [KiCad](https://www.kicad.org) (open-source EDA application)
-- Sicne the `git diff` involved in modifying these files is somewhat opaque, please start a discussion first, so any changes can be coordinated
+- Since the `git diff` involved in modifying these files is somewhat opaque, please start a discussion first, so any changes can be coordinated
 
 
 Photos
